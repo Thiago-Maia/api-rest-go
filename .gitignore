@@ -1,0 +1,40 @@
+#Env
+*.env
+
+# Diretórios de build
+/bin/
+/build/
+/dist/
+
+# Dependências do Go Modules
+/go.sum
+/go.mod
+
+# Arquivos de pacotes
+/pkg/
+
+# Binários compilados
+*.exe
+*.dll
+*.so
+*.dylib
+*.out
+
+# Testes de cobertura
+*.cover
+*.test
+
+# Arquivos de log
+*.log
+
+# IDEs e editores
+.idea/
+.vscode/
+*.swp
+
+# Arquivos temporários do sistema
+.DS_Store
+Thumbs.db
+
+# Arquivos temporários criados pelo Go
+*.tmp
